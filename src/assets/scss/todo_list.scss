@@ -1,0 +1,16 @@
+.custom-btn {
+  border: 0;
+  background-color: transparent;
+  i {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.45);
+  }
+  &:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+}
+.custom-sm-btn {
+  cursor: pointer;
+  color: #adadad;
+}

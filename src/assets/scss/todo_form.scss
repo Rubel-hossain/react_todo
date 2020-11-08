@@ -1,0 +1,43 @@
+.option-select {
+  background-color: #34bcbc;
+  color: #fff;
+  max-width: 125px;
+  height: 35px;
+  border-color: #34bcbc;
+  border-radius: 5px;
+  padding: 5px;
+  &:focus {
+    outline: 0;
+  }
+}
+.form-title {
+  margin-bottom: 0;
+  color: #34bcbc;
+}
+.form-header {
+  font-weight: 500;
+}
+.form-body {
+  .input-group {
+    height: 50px;
+  }
+  .form-control {
+    height: 100% !important;
+    border-right: 0;
+    &:focus {
+      box-shadow: none;
+      outline: 0;
+      border-color: rgba(0, 0, 0, 0.125);
+    }
+  }
+  .custom-btn-2 {
+    border-left: 0;
+    background-color: transparent;
+    padding-right: 15px !important;
+    color: #adadad;
+    cursor: pointer;
+    &:focus {
+      outline: 0;
+    }
+  }
+}
